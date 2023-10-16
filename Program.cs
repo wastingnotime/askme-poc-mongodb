@@ -18,7 +18,7 @@ Console.WriteLine();
 
 //get collection contacts for askme database
 var collection = dbClient
-    .GetDatabase("askme")
+    .GetDatabase("askme-poc-mongodb")
     .GetCollection<Contact>("contacts");
 
 //retrieve all
